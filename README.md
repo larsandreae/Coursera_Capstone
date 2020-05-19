@@ -1,2 +1,3 @@
-# Coursera_Capstone
+# Coursera Capstone Repository
+
 Repository for the capstone assignments
