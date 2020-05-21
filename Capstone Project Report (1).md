@@ -2,20 +2,21 @@
 
 ## 1. Introduction / Business Problem
 
-### Assessing the distribution / usage of Foursquare in different German cities
+### Assessing distribution / usage of Foursquare in German cities
 
 #### Background
-Foursquare is relying on users to add, describe, rate,... places.
-It is **not** a widely used service in Germany.
-Therefore, the database is probably not as big as some competitors' databases.
+Foursquare relies on users to add, describe, rate,... places.
+It is not a widely used service in Germany. Therefore, the database is probably not as big as some competitors' databases.
 
 #### Business problem
 
-What can a data scientist / user expect from a comparison of German cities of different size and location using Foursquare?
-Which types of venues can a data scientist / user use for his comparison at all?
+How much and what type of Foursquare Places data can a data scientist use to compare German cities?
 
-Can one identify cities or clusters of cities for promoting the use of Foursquare to widen the user base?
-Can one identify types of venues that are under-represented and that should be added to the Foursquare database?
+Can one cluster the cities by their population size, location and Foursquare data into groups to enable data scientist to decide which cities are better suited for comparison than others?
+
+In which properties do the city clusters differ?
+
+Can one derive city clusters that could be targets for an ad campaign to promote the usage of Foursquare?
 
 ##### Stakeholders
 
@@ -27,4 +28,3 @@ The two stakeholders this data science project will target are:
   
 2. the "Foursquare advertising team"
   * to select cities in which to promote the usage of Foursquare
-  * to select types / categories of venues that need to be added to the Foursquare database (e.g. by nudging Foursquare users to add them)
