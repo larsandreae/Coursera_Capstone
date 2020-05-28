@@ -16,7 +16,7 @@ Can one cluster the cities by their population size, location and Foursquare dat
 
 In which properties do the city clusters differ?
 
-Can one derive city clusters that could be targets for an ad campaign to promote the usage of Foursquare?
+Can one select cities within these clusters that should be targeted with an ad campaign to promote the usage of Foursquare?
 
 ##### Stakeholders
 
@@ -24,7 +24,7 @@ The two stakeholders this data science project will target are:
 
 1. the "common data scientist"
   * to decide whether he/she wants to use Foursquare for comparing cities in Germany
-  * ... or to limit his/her comparison to cities with specific population size or location
+  * ... or to limit his/her comparison to (clusters of) cities with specific properties (population size, location, venues,...)
   
 2. the "Foursquare advertising team"
   * to select cities in which to promote the usage of Foursquare
