@@ -39,26 +39,28 @@ First of all, I will have to choose one search radius for all the different Germ
 
 The start radius will be calculated from the median of the cities area data.
 
- ### Data wrangling
+### Jupyter Notebook: [PGA_Cap_wk1_Data_v2](https://nbviewer.jupyter.org/github/larsandreae/Coursera_Capstone/blob/master/PGA_Cap_wk1_Data_v2.ipynb)
+
+### Data wrangling
  
- * Creating a city dataframe with
-    * Name
-    * Population
-    * Location (Latitude, Longitude)
+* Creating a city dataframe with
+   * Name
+   * Population
+   * Location (Latitude, Longitude)
+
+* Creating a Foursquare dataframe with
+   * venue name
+   * venue category
  
- * Creating a Foursquare dataframe with
-    * venue name
-    * venue category
- 
- * One-hot encoded dataframe
-    * summarizing the venues per venue category per city
- 
- * Adding to the city dataframe
-    * the number of venues per city derived from the Foursquare dataframe
-    * deriving a "venue density"
-       * per population and/or
-       * per city area and/or
-       * per Foursquare search area (radius)
+* One-hot encoded dataframe
+   * summarizing the venues per venue category per city
+
+* Adding to the city dataframe
+   * the number of venues per city derived from the Foursquare dataframe
+   * deriving a "venue density"
+      * per population and/or
+      * per city area and/or
+      * per Foursquare search area (radius)
  
 ### Data visualisation
  
